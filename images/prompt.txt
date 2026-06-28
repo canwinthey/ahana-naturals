@@ -1,0 +1,8 @@
+Generate the complete, fully functional, one-page website code for a modern, responsive [TYPE OF WEBSITE] website for [CATEGORY/TOPIC]. The primary accent colors are light green (#A7C957) and beige (#F7F4EA). Use Poppins (headings) and Roboto (body) from Google Fonts. The look and feel must be clean, organic, and minimalist. The output must be three separate, complete, and well-commented code blocks for HTML (index.html), CSS (styles.css), and Vanilla JavaScript (script.js). Ensure all technical requirements are met, including semantic HTML5, lazy loading, ARIA attributes, CSS Grid/Flexbox, mobile-first design, and at least two vanilla JavaScript interactive features (Sticky Nav and Smooth Scroll). The main content area must feature a detailed [2-3 SPECIFIC SUB-SECTIONS RELEVANT TO THE TOPIC].
+
+TYPE OF WEBSITE: Small Soap Business Website
+CATEGORY/TOPIC: Soap Product website
+Brand Name: Ahana Naturals - Where Nature Meets Nurture
+2-3 SPECIFIC SUB-SECTIONS RELEVANT TO THE TOPIC: 'Product Features', 'Our Services', 'Client Testimonials', 'About Us', 'Contact Us'
+Company LOGO: images/ahana_naturals.jpeg
+Images: Use the soap images kept in images folder

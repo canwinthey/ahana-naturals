@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahana Naturals - Where Nature Meets Nurture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sticky site header with accessible primary navigation -->
+  <header class="site-header" aria-label="Primary">
+    <div class="brand">
+      <img src="images/ahana_naturals.jpeg" alt="Ahana Naturals logo" loading="lazy">
+      <div class="brand-text">
+        <p class="brand-name">Ahana Naturals</p>
+        <p class="brand-tagline">Where Nature Meets Nurture</p>
+      </div>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+      <a href="#features">Product Features</a>
+      <a href="#services">Our Services</a>
+      <a href="#testimonials">Client Testimonials</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero with quick story snapshot -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-text">
+      <p class="eyebrow">Handcrafted with botanicals</p>
+      <h1 id="hero-title">Gentle soaps crafted from earth's purest ingredients.</h1>
+      <p>Experience mindful bathing rituals infused with organic oils, nourishing clays, and calming aromas&mdash;thoughtfully blended for every skin story.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#features">Explore Collections</a>
+        <a class="btn secondary" href="#contact">Wholesale Inquiry</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="images/amber-glow.jpeg" alt="Display of Ahana Naturals handcrafted soaps" loading="lazy">
+    </div>
+  </section>
+
+  <main>
+    <!-- Product features detail cards -->
+    <section id="features" class="section" aria-labelledby="features-title">
+      <div class="section-head">
+        <p class="eyebrow">Pure Ingredients</p>
+        <h2 id="features-title">Product Features</h2>
+        <p>Each bar is small-batch poured, cruelty-free, and wrapped in compostable packaging to honor the planet.</p>
+      </div>
+
+      <div class="feature-tabs" role="tablist" aria-label="Product gallery tabs">
+        <button class="feature-tab is-active" role="tab" aria-selected="true" aria-controls="core-panel" id="core-tab" data-panel="core-panel">
+          Core Collection
+        </button>
+        <button class="feature-tab" role="tab" aria-selected="false" aria-controls="arrivals-panel" id="arrivals-tab" data-panel="arrivals-panel">
+          New Arrivals
+        </button>
+      </div>
+
+      <div id="core-panel" class="feature-panel is-active" role="tabpanel" aria-labelledby="core-tab">
+        <div class="feature-grid">
+          <article class="card" aria-label="Amber Crush bar">
+            <img src="images/amber-crush.jpeg" alt="Amber Crush marbled soap bar" loading="lazy">
+            <h3>Amber Crush</h3>
+            <p>Candied orange peel swirls through raw cocoa butter to keep skin dewy and resilient.</p>
+            <p class="price" aria-label="Price">₹540</p>
+          </article>
+          <article class="card" aria-label="Amber Glow bar">
+            <img src="images/amber-glow.jpeg" alt="Amber Glow illuminating soap bar" loading="lazy">
+            <h3>Amber Glow</h3>
+            <p>Turmeric root and golden resins leave a luminous finish while easing inflammation.</p>
+            <p class="price" aria-label="Price">₹560</p>
+          </article>
+          <article class="card" aria-label="Amber Resin bar">
+            <img src="images/amber-resin.jpeg" alt="Amber Resin honey soap bar" loading="lazy">
+            <h3>Amber Resin</h3>
+            <p>Wild honey, benzoin, and shea butter cushion dry patches with silken moisture.</p>
+            <p class="price" aria-label="Price">₹520</p>
+          </article>
+          <article class="card" aria-label="Amber Ember bar">
+            <img src="images/amber-ember.jpeg" alt="Amber Ember smoked citrus soap bar" loading="lazy">
+            <h3>Amber Ember</h3>
+            <p>Smoked citrus peel and dark vetiver create a grounding evening ritual bar.</p>
+            <p class="price" aria-label="Price">₹570</p>
+          </article>
+          <article class="card" aria-label="Berry Ribbon bar">
+            <img src="images/berry-ribbon.jpeg" alt="Berry Ribbon botanical soap bar" loading="lazy">
+            <h3>Berry Ribbon</h3>
+            <p>Pressed berry seeds gently polish while hibiscus keeps tone bright and rosy.</p>
+            <p class="price" aria-label="Price">₹510</p>
+          </article>
+          <article class="card" aria-label="Maple Field bar">
+            <img src="images/maple-field.jpeg" alt="Maple Field oat soap block" loading="lazy">
+            <h3>Maple Field</h3>
+            <p>Rolled oats, maple sap, and kokum butter calm sensitive skin with creamy bubbles.</p>
+            <p class="price" aria-label="Price">₹530</p>
+          </article>
+          <article class="card" aria-label="Yuzu Fleur bar">
+            <img src="images/yuzu-fleur.jpeg" alt="Yuzu Fleur floral soap bar" loading="lazy">
+            <h3>Yuzu Fleur</h3>
+            <p>Yuzu zest pops against jasmine petals for an enlivening morning cleanse.</p>
+            <p class="price" aria-label="Price">₹550</p>
+          </article>
+          <article class="card" aria-label="Seafoam Glass bar">
+            <img src="images/seafoam-glass.jpeg" alt="Seafoam Glass marine soap bar" loading="lazy">
+            <h3>Seafoam Glass</h3>
+            <p>Blue spirulina and kelp minerals remineralize skin for a spa-by-the-sea feel.</p>
+            <p class="price" aria-label="Price">₹540</p>
+          </article>
+          <article class="card" aria-label="Seafoam Tide bar">
+            <img src="images/seafoam-tide.jpeg" alt="Seafoam Tide ocean soap bar" loading="lazy">
+            <h3>Seafoam Tide</h3>
+            <p>Atlantic clay and salt crystals brighten tone while supporting gentle detox.</p>
+            <p class="price" aria-label="Price">₹515</p>
+          </article>
+          <article class="card" aria-label="Musk Hearth bar">
+            <img src="images/musk-hearth.jpeg" alt="Musk Hearth earthy soap bar" loading="lazy">
+            <h3>Musk Hearth</h3>
+            <p>Cedarwood, tonka bean, and cocoa husk wrap skin in fireside softness.</p>
+            <p class="price" aria-label="Price">₹590</p>
+          </article>
+          <article class="card" aria-label="Musk Root bar">
+            <img src="images/musk-root.jpeg" alt="Musk Root botanical soap bar" loading="lazy">
+            <h3>Musk Root</h3>
+            <p>Fresh-ground vetiver boosts circulation while shea butter replenishes.</p>
+            <p class="price" aria-label="Price">₹565</p>
+          </article>
+          <article class="card" aria-label="Spiced Chai bar">
+            <img src="images/spiced-chai.jpeg" alt="Spiced Chai spice soap bar" loading="lazy">
+            <h3>Spiced Chai</h3>
+            <p>Cardamom, clove, and ginger steep together to warm muscles and calm the mind.</p>
+            <p class="price" aria-label="Price">₹520</p>
+          </article>
+          <article class="card" aria-label="Signature seal bar">
+            <img src="images/ahana_naturals.jpeg" alt="Ahana Naturals embossed soap seal" loading="lazy">
+            <h3>Signature Seal</h3>
+            <p>Our embossed seal adorns each batch, promising traceable, cruelty-free purity.</p>
+            <p class="price" aria-label="Price">₹600</p>
+          </article>
+        </div>
+      </div>
+
+      <div id="arrivals-panel" class="feature-panel" role="tabpanel" aria-labelledby="arrivals-tab" hidden>
+        <div class="feature-grid">
+          <article class="card" aria-label="New arrival mango clay bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-21%20at%2022.54.52.jpeg" alt="New arrival artisan soap from November 21st pour" loading="lazy">
+            <h3>Mango Clay Revival</h3>
+            <p>Sea buckthorn, mango butter, and French clay feed thirsty skin with bright minerals.</p>
+            <p class="price" aria-label="Price">₹610</p>
+          </article>
+          <article class="card" aria-label="New arrival tide bloom bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-21%20at%2022.54.53.jpeg" alt="New arrival artisan soap with marbled finish" loading="lazy">
+            <h3>Tide Bloom Wave</h3>
+            <p>Tidal blues, peppermint, and myrrh create a twilight cleanse full of cool lift.</p>
+            <p class="price" aria-label="Price">₹630</p>
+          </article>
+          <article class="card" aria-label="New arrival honey crest bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-21%20at%2022.54.54.jpeg" alt="New arrival artisan soap stacked display" loading="lazy">
+            <h3>Honey Crest Stack</h3>
+            <p>Maple sugar flecks and jasmine tea leaves offer daily exfoliation with cushiony foam.</p>
+            <p class="price" aria-label="Price">₹620</p>
+          </article>
+          <article class="card" aria-label="New arrival calendula veil bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2011.25.25.jpeg" alt="New arrival soap with botanical inserts" loading="lazy">
+            <h3>Calendula Veil</h3>
+            <p>Sun-soothing calendula petals suspend in aloe gel to ease post-outdoor skin.</p>
+            <p class="price" aria-label="Price">₹580</p>
+          </article>
+          <article class="card" aria-label="New arrival atelier cut bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2011.27.41.jpeg" alt="New arrival soap slab being cut" loading="lazy">
+            <h3>Atelier Cut No. 27</h3>
+            <p>Fresh-cut slabs layered with luo han guo nectar keep hydration sealed in.</p>
+            <p class="price" aria-label="Price">₹600</p>
+          </article>
+          <article class="card" aria-label="New arrival pine atelier bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2011.31.47.jpeg" alt="New arrival soap loaf in studio" loading="lazy">
+            <h3>Pine Atelier</h3>
+            <p>Studio-fresh loaves infused with forest pine resin steady the nervous system.</p>
+            <p class="price" aria-label="Price">₹640</p>
+          </article>
+          <article class="card" aria-label="New arrival lavender crest bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2011.38.01.jpeg" alt="New arrival soap curls detail" loading="lazy">
+            <h3>Lavender Crest</h3>
+            <p>Lavender curls crown each bar, releasing micro bursts of calm with every pass.</p>
+            <p class="price" aria-label="Price">₹590</p>
+          </article>
+          <article class="card" aria-label="New arrival earth kiln bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2011.50.31.jpeg" alt="New arrival soap stack earthy palette" loading="lazy">
+            <h3>Earth Kiln Stack</h3>
+            <p>Cacao nibs and clove anchor this earthy palette for deep winter nourishment.</p>
+            <p class="price" aria-label="Price">₹585</p>
+          </article>
+          <article class="card" aria-label="New arrival eucalyptus drift bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2011.50.32.jpeg" alt="New arrival soap stack airy palette" loading="lazy">
+            <h3>Eucalyptus Drift</h3>
+            <p>Airy eucalyptus ribbons create a spa-steam experience right at home.</p>
+            <p class="price" aria-label="Price">₹575</p>
+          </article>
+          <article class="card" aria-label="New arrival charcoal ripple bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2012.00.15.jpeg" alt="New arrival soap loaf top view" loading="lazy">
+            <h3>Charcoal Ripple</h3>
+            <p>Birch charcoal veining detoxes while rice milk creates cloud-light lather.</p>
+            <p class="price" aria-label="Price">₹615</p>
+          </article>
+          <article class="card" aria-label="New arrival rooibos vault bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-23%20at%2014.21.23.jpeg" alt="New arrival soap curing rack" loading="lazy">
+            <h3>Rooibos Vault</h3>
+            <p>Rooibos tea and barley malt cure slowly for boosted antioxidant defense.</p>
+            <p class="price" aria-label="Price">₹605</p>
+          </article>
+          <article class="card" aria-label="New arrival twine bloom bar">
+            <img src="images/new-arrivals/WhatsApp%20Image%202025-11-27%20at%2019.02.01.jpeg" alt="New arrival soap bundle tied with twine" loading="lazy">
+            <h3>Twine Bloom Bundles</h3>
+            <p>Gift-ready bundles tied in hemp twine pair neroli blossom with sandalwood.</p>
+            <p class="price" aria-label="Price">₹650</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services overview -->
+    <section id="services" class="section soft-bg" aria-labelledby="services-title">
+      <div class="section-head">
+        <p class="eyebrow">Beyond Bars</p>
+        <h2 id="services-title">Our Services</h2>
+      </div>
+      <div class="services-grid">
+        <article>
+          <h3>Custom Scent Lab</h3>
+          <p>Partner with our aromatherapist to design bespoke blends for hotels, spas, and gifting programs.</p>
+        </article>
+        <article>
+          <h3>Subscription Refills</h3>
+          <p>Refill-ready deliveries on a monthly or seasonal cadence with flexible mix-and-match bundles.</p>
+        </article>
+        <article>
+          <h3>Wholesale Partnerships</h3>
+          <p>Eco-forward merchandising support, private labeling, and story-driven in-store experiences.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials list -->
+    <section id="testimonials" class="section" aria-labelledby="testimonials-title">
+      <div class="section-head">
+        <p class="eyebrow">Loved by Community</p>
+        <h2 id="testimonials-title">Client Testimonials</h2>
+      </div>
+      <div class="testimonial-grid" role="list">
+        <article class="testimonial" role="listitem">
+        <p>"My spa guests can feel the difference&mdash;Ahana bars melt stress away."</p>
+          <span>&mdash; Lila, Nurture Spa Collective</span>
+        </article>
+        <article class="testimonial" role="listitem">
+        <p>"The custom scent line reflects our brand ethos perfectly. Flawless collab."</p>
+          <span>&mdash; Greenhaven Boutique</span>
+        </article>
+        <article class="testimonial" role="listitem">
+        <p>"Our clients rave about the silky lather and compostable wrap. Zero waste bliss."</p>
+          <span>&mdash; River & Root Wellness</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Studio introduction -->
+    <section id="about" class="section split" aria-labelledby="about-title">
+      <div class="split-text">
+        <p class="eyebrow">Our Story</p>
+        <h2 id="about-title">About Us</h2>
+        <p>Founded by herbalist Asha Verma, Ahana Naturals marries Ayurvedic wisdom with modern sustainability. We source directly from women-led cooperatives and reinvest in regenerative farming across India.</p>
+        <ul class="about-list">
+          <li>Small-batch studio in Portland, OR</li>
+          <li>Zero synthetic fragrances or dyes</li>
+          <li>1% of proceeds supports watershed restoration</li>
+        </ul>
+      </div>
+      <div class="split-media">
+        <img src="images/maple-field.jpeg" alt="Ahana Naturals studio workspace" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact" class="section soft-bg" aria-labelledby="contact-title">
+      <div class="section-head">
+        <p class="eyebrow">Let's Connect</p>
+        <h2 id="contact-title">Contact Us</h2>
+      </div>
+      <form class="contact-form" aria-label="Contact form">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@email.com" required>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="4" placeholder="Tell us about your project" required></textarea>
+        </label>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Modal for image zoom -->
+  <div id="image-modal" class="image-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Enlarged product image" hidden>
+    <div class="image-modal__content">
+      <button type="button" class="image-modal__close" aria-label="Close image">&times;</button>
+      <img src="" alt="" class="image-modal__image">
+    </div>
+  </div>
+
+  <!-- Footer with back-to-top link -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ahana Naturals · Crafted with earth-first care.</p>
+    <a href="#hero-title" class="back-to-top" aria-label="Back to top">Back to top</a>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
